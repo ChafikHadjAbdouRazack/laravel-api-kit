@@ -2,7 +2,7 @@
 
 A production-ready, API-only Laravel 13 starter kit following the 2025-2026 REST API ecosystem best practices. No frontend dependencies - purely headless API for mobile apps, SPAs, or microservices.
 
-[![PHP Version](https://img.shields.io/badge/PHP-8.3%2B-blue)](https://php.net)
+[![PHP Version](https://img.shields.io/badge/PHP-8.4%2B-blue)](https://php.net)
 [![Laravel Version](https://img.shields.io/badge/Laravel-13.x-red)](https://laravel.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
@@ -27,7 +27,7 @@ A production-ready, API-only Laravel 13 starter kit following the 2025-2026 REST
 ## Requirements
 
 - Docker & Docker Compose
-- Or: PHP 8.3+, Composer 2.x
+- Or: PHP 8.4+, Composer 2.x
 
 ## Quick Start
 
@@ -775,7 +775,7 @@ API_DOCS_URL=http://localhost:8080/docs/api
 
 ```dockerfile
 # Example production Dockerfile additions
-FROM php:8.3-fpm-alpine
+FROM php:8.4-fpm-alpine
 
 # Install opcache for performance
 RUN docker-php-ext-install opcache
