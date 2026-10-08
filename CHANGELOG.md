@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.5.0](https://github.com/Grazulex/laravel-api-kit/releases/tag/v2.5.0) (2026-10-08)
+
+### Changed
+
+- **Minimum PHP version is now 8.4**: PHP 8.3 is no longer supported (#24)
+- CI test matrix now runs PHP 8.4 and 8.5 (#24)
+- Docker image now based on PHP 8.4 (#24)
+
 ## [2.2.0](https://github.com/Grazulex/laravel-api-kit/releases/tag/v2.2.0) (2026-01-29)
 
 ### Features
